@@ -1,0 +1,428 @@
+q1
+//  let N = 9;
+//  for(let i=0; i<=N; i++){
+//     if(i%2===0){
+//       console.log(i + " even number"); 
+//     }
+//     else{
+//        console.log(i + " odd number");
+//     }
+// }
+
+
+
+//q2
+
+// let i = 0;
+
+// if(i>0){
+//     console.log("positive number");
+// }
+// else if(i===0){
+//         console.log("zero");
+//     }
+//     else{
+//         console.log("negative number");
+//     }
+
+
+
+//q3
+// for(let i=1; i<=100; i++){
+//     if(i%2==0){
+//     console.log(i);
+//     }
+// }
+
+
+//q4
+// let sum=0;
+// let n = 454;
+// for(let i=0; i<=n; i++){
+//     let digit = n%10;
+//     console.log(digit);
+//     sum+=digit;
+//     n = (n - digit) /10;
+//     // n=parseInt(n/10);     we can also use htis method to ignore decimal values in sum 
+// }
+// console.log(sum);
+
+//q5
+// let a = 15;
+// let b= 30;
+// for(let i=0; i<=b; i++){
+// if(a%5===0 && b%3 ===0){
+//     console.log("divisible by both ");
+// }
+// else {
+//     console.log("not divisible by both ");
+// }
+
+//q6
+// let a = 25;
+// let b = 15;
+// if(a>b){
+//     console.log("a is greater");
+// }
+// else{
+//     console.log
+// }
+
+//q29
+
+// function freqCount(n){
+//     for(let a =0; a<=9; a++){
+//         freq[a]=0;
+        
+//     }
+//     let freq = {};
+//     while(n>0){
+//         let digit = n%10;
+//         freq[digit] = freq[digit]++;
+//         n = parseInt(n/10);
+//     }
+//     return freq;
+// }
+// let n = 112233;
+
+// console.log(freqCount(n));
+
+//questions to generate otp with using math.random.........
+
+// let a = Math.random()
+// let b = 1000*a;
+// console.log(Math.floor(b))
+// console.log(Math.ceil(b))
+
+// let a = Math.random();
+// let b = 10000*a;
+// console.log(Math.round(b))
+
+// console.log(Math.floor(1000 + Math.random()*900))
+// console.log(Math.floor(Math.random()*1000)+1);
+
+
+//q7
+// let age = 18;
+
+//     if(age>=18){
+//         console.log("eligible to vote")
+//     }
+//     else{
+//         console.log("not eligible to vote")
+//     } 
+
+//q8
+// let n = 4548853;
+// let count = 0;
+// while(n>0){
+//     let digit = n%10;
+//     count++;
+//     n = Math.floor(n/10);
+// }
+// console.log(count);
+
+//q9
+
+// let n = 8;
+
+// for(let i = 1; i<=10; i++){
+//     console.log(i*n);
+// }
+
+//q10
+// let n = 3454;
+// let max = 0;
+// while(n > 0){
+//     let digit = n%10;
+//     if(digit>max ){
+//         max = digit;
+//     }
+//     n = Math.floor(n/10);
+// }
+//  console.log(max);
+
+
+//q11
+// let n = 123
+// rev =0;
+// while(n>0){
+//     let digit = n%10;
+//     rev = rev*10+digit;
+//     n = Math.floor(n/10);
+// }
+// console.log(rev);
+
+//q12
+// let n = 1221;
+// let rev = 0;
+// let temp = n;
+
+// while(n>0){
+//     let digit  = n%10;
+//     rev = rev*10+digit;
+//     n = Math.floor(n/10);
+
+// }
+// if(rev === temp){
+//     console.log("palindrome");
+// }
+// else{
+//     console.log("not palindrome");
+// }
+
+//q13
+// let n = 5
+// let fact = 1;
+// for(let i=1; i<=n; i++)
+// {
+//     fact*=i;
+// }
+// console.log(fact);
+
+//q14
+// let n = 7;
+// let prime = true;
+
+// if(n<=1){
+//     prime = false;
+// }
+// else{
+//     for(let i =2; i<n; i++){
+//         if(n%i===0){
+//             prime = false;
+//             break;
+//         }
+//     }
+// }
+// if(prime){
+//     console.log("prime number");
+// }
+// else{
+//     console.log("not a prime number");
+// }
+
+//15
+// let n = 2;
+// let o = 100;
+
+// for(let p = n; p<=o; p++){
+//     let isPrime = true;
+
+//     if(n<=1){
+//     isPrime = false;
+//     }
+//     else{
+//     for(let i =2; i*i <= p; i++){
+//         if(p%i ===0){
+//             isPrime = false;
+//             break;
+//         }
+//     }
+//     }
+// if(isPrime){
+//  console.log(p);
+// }
+// }
+
+//q16
+// let n = 1234;
+// let sum = 0;
+
+// while(n>0){
+//     let digit = n%10;
+//     sum = sum+digit;
+//     n = parseInt(n/10);
+// }
+// console.log(sum);
+//q17
+let str = "education";
+let count = 0;
+for(let ch of str){
+  if("aeiou".includes(ch)) count++;
+}
+console.log(count);
+
+
+
+("18. HCF (GCD) of Two Numbers",
+"""Example:
+let a = 24, b = 36;
+while(b != 0){
+  let t = b;
+  b = a % b;
+  a = t;
+}
+console.log(a);
+
+Output:
+12
+"""),
+
+("19. LCM of Two Numbers",
+"""Example:
+let a = 6, b = 8;
+let x = a, y = b;
+while(b != 0){
+  let t = b;
+  b = a % b;
+  a = t;
+}
+let lcm = (x*y)/a;
+console.log(lcm);
+
+Output:
+24
+"""),
+
+("20. Fibonacci Series",
+"""Example:
+let n = 5;
+let a = 0, b = 1;
+for(let i=1;i<=n;i++){
+  console.log(a);
+  let c = a + b;
+  a = b;
+  b = c;
+}
+
+Output:
+0 1 1 2 3
+"""),
+
+("21. Armstrong Number Check",
+"""Example:
+let n = 153;
+let t = n, sum = 0;
+while(t > 0){
+  let d = t % 10;
+  sum += d*d*d;
+  t = Math.floor(t/10);
+}
+console.log(sum === n);
+
+Output:
+true
+"""),
+
+("22. Count Even and Odd Digits",
+"""Example:
+let n = 12345;
+let even = 0, odd = 0;
+while(n > 0){
+  let d = n % 10;
+  d % 2 === 0 ? even++ : odd++;
+  n = Math.floor(n/10);
+}
+console.log(even, odd);
+
+Output:
+2 3
+"""),
+
+("23. Find Smallest Number",
+"""Example:
+let arr = [12,5,9,2,15];
+let min = arr[0];
+for(let x of arr){
+  if(x < min) min = x;
+}
+console.log(min);
+
+Output:
+2
+"""),
+
+("24. Divisible by 7 (1–50)",
+"""Example:
+for(let i=1;i<=50;i++){
+  if(i % 7 === 0) console.log(i);
+}
+
+Output:
+7 14 21 28 35 42 49
+"""),
+
+("25. Armstrong Numbers (1–500)",
+"""Example:
+for(let i=1;i<=500;i++){
+  let t=i, sum=0;
+  while(t>0){
+    let d=t%10;
+    sum+=d*d*d;
+    t=Math.floor(t/10);
+  }
+  if(sum===i) console.log(i);
+}
+
+
+
+("26. Login System (3 Attempts)",
+"""Example:
+let password="admin";
+let input="admin";
+let attempts=3;
+while(attempts>0){
+  if(input===password){
+    console.log("Login Success");
+    break;
+  }
+  attempts--;
+}
+
+
+
+("27. Second Largest Number",
+"""Example:
+let arr=[10,25,8,30,18];
+let max=-Infinity, second=-Infinity;
+for(let x of arr){
+  if(x>max){
+    second=max;
+    max=x;
+  }else if(x>second && x!==max){
+    second=x;
+  }
+}
+console.log(second);
+
+
+
+("28. Prime Factors of a Number",
+"""Example:
+let n=36;
+for(let i=2;i<=n;i++){
+  while(n%i===0){
+    console.log(i);
+    n=n/i;
+  }
+}
+
+
+
+("29. Digit Frequency Counter",
+"""Example:
+let n=112233;
+let freq=Array(10).fill(0);
+while(n>0){
+  freq[n%10]++;
+  n=Math.floor(n/10);
+}
+console.log(freq);
+
+
+
+("30. Strong Number Check",
+"""Example:
+let n=145;
+let t=n, sum=0;
+function fact(x){
+  let f=1;
+  for(let i=1;i<=x;i++) f*=i;
+  return f;
+}
+while(t>0){
+  sum+=fact(t%10);
+  t=Math.floor(t/10);
+}
+console.log(sum===n);

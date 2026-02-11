@@ -1,0 +1,31 @@
+1 Number.isinteger :- to check number is integer
+// console.log(Number.isInteger(10.55));
+
+// console.log(Number.isInteger(10));
+// 2 number .isNaN
+// // console.log(Number.isNaN());
+// // console.log(Number.isNaN(NaN));
+// console.log(10/"abc");
+// // console.log(10/"10");
+// console.log(10-"10");//only + kam operation nahi hoga isme 1010 aayega string add hoti h 
+// console.log(NaN==NaN);
+// console.log(NaN===NaN);
+// 3. Number .isFinite
+// console.log(Number.isFinite(10));
+// console.log(Number.isFinite(NaN));
+// console.log(Number.isFinite(Infinity));
+// console.log(Number.isFinite(-Infinity));
+// console.log(Number.isFinite(-10));
+// console.log(Number.isFinite("abc"));
+// 4 parseint 
+// console.log(parseInt(10));
+// console.log(parseInt("10"));
+// console.log(parseInt("10.55"));
+// console.log(parseInt("10ab"));
+// console.log(parseInt("ab10"));
+// 5 parseFloat
+// console.log(parseFloat(10.55));
+// console.log(parseFloat("10"));
+// console.log(parseFloat("10.55"));
+// console.log(parseFloat("10ab"));
+// console.log(parseFloat("ab10"));

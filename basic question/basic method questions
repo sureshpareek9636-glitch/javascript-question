@@ -29,3 +29,37 @@
 // console.log(parseFloat("10.55"));
 // console.log(parseFloat("10ab"));
 // console.log(parseFloat("ab10"));
+ 6. tofixed():- round of number and return string 
+// let a=12.555
+// console.log(a.toFixed());
+// console.log(a.toFixed(1));
+// console.log(a.toFixed(2));
+// console.log(a.toFixed(3));
+// console.log(a.toFixed(4));
+// console.log(a.toFixed(5));
+// 7. toprecision length count kar raha length aati for ex 2 means 13 and 3 lagne par 12.6
+// let a =12.555
+// console.log(a.toPrecision(2));
+// console.log(a.toPrecision(3));
+// console.log(a.toPrecision(4));
+// console.log(a.toPrecision(5));
+// 8. tostring :- number -> string 
+// let a=10
+// let b=a.toString()
+// console.log(typeof b);
+// console.log(typeof a);
+// let a =5;
+// let b=8;
+//  a=b-a;
+//  b=b-a;
+//  a=a+b;
+//  console.log(a,b)
+// 9 math.floor  //round of karta h down me
+// console.log(Math.floor(10.52));
+// console.log(Math.floor(8.5));
+// console.log(Math.floor(-8.4));
+// 10 math.ceil around of karta h up
+// console.log(Math.ceil(8.4))
+// console.log(Math.ceil(10.52))
+// console.log(Math.ceil(-8.9))
+

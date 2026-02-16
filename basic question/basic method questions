@@ -62,4 +62,71 @@
 // console.log(Math.ceil(8.4))
 // console.log(Math.ceil(10.52))
 // console.log(Math.ceil(-8.9))
+11 math.round
+// console.log(Math.round(8.4))
+// console.log(Math.round(8.9))
+// console.log(Math.round(8.5))//5 me aage wala me round hota h
+// console.log(Math.round(-8.5))
+// 12 math.random(0-1) har bar result alag aa raha h
+// console.log(Math.random())
+// console.log(Math.random())
+// let a=Math.random();//otp generate karne ke liye use kar rahe for example
+// let c=a*10000;
+// console.log(Math.floor(c));
+// console.log(Math.floor(1000+Math.random()*9000));//isme range set ki 1000 se 9000 tak
+// console.log(Math.floor(1000+Math.random()*9000));
+// console.log(Math.floor(1000+Math.random()*9000));
+// console.log(Math.floor(Math.random()*10));
+// console.log(Math.ceil(Math.random()*100));
+// console.log(Math.ceil(Math.random()*10));
+// console.log(Math.floor(Math.random()*10)+1);
+// console.log(Math.floor(Math.random()*10)+1);
+// console.log(Math.floor(Math.random()*10)+1);
+// console.log(Math.floor(Math.random()*10)+1);
+// console.log(Math.floor(Math.random()*10)+1);
+// console.log(Math.floor(Math.random()*10)+2);
+// console.log(Math.floor(Math.random()*10)+2);
+// 
+// let a=Number("10")
+// console.log(typeof a);
+// 13 Math.trunc(): remove decimal Digit
+// console.log(Math.trunc(10.55))
+// 14 math.main():return max.value
+// console.log(Math.max(10,20,30,40))
+// 15 math.min()
+// console.log(Math.min(12,13,14,14))
+// 16 math.pow :power cell
+// console.log(Math.pow(2,3));//2 power 8 h 
+// console.log(Math.pow(3,3));
+// 17 math.sqrt
+// console.log(Math.sqrt(16));//16 ka 4
+// console.log(Math.sqrt(25));
+// console.log(Math.sqrt(36));
+// console.log(Math.sqrt(37));
+
+// 18 math.cbrt:cube root
+// console.log(Math.cbrt(9));
+// console.log(Math.cbrt(64));
+// console.log(Math.cbrt(125));
+// 19 Math.abs
+// console.log(Math.abs(-4));
+// console.log(Math.abs(-64));
+// console.log(Math.abs(64));
+// console.log(Math.abs(3,64));
+// console.log((Math.abs(10.33)));
+// convert number to string
+// let a=10;
+// let b=a.toString();
+// console.log(typeof b)
+// khali string math use kar sakte h
+// console.log(String (10));
+// let a=10;
+// let c=String(a)
+// console.log(typeof c);
+//20 Math.sign:-number negative de to -1 and positive me 1 and 0 me 0 
+// console.log(Math.sign(4));
+// console.log(Math.sign(-4));
+// console.log(Math.sign(4.3));
+// console.log(Math.sign(0));
+
 

@@ -1,0 +1,28 @@
+string  methods
+// 1 length: to find the length of string
+// let a="hello javascript";
+// console.log(a.length);
+// let a=123432; number ki length nikalna to string se string change kar ke
+// let b=a.toString()
+// console.log(b.length)
+//  2  string concattenation
+//  using + operator
+// let a="hello"
+// let b="js"
+// let c=a+b;
+// console.log(c);
+//  3 concat method 
+// let c=a.concat(b)
+// console.log(c);
+// 4 template literal
+// console.log(`${a} ${b}`);
+
+// 5  touppercase()  :-upper case change karna
+// let a="JAvascript";
+// // 6 lower case tolower
+// let b=a.toLowerCase()
+// console.log(a);
+//7  index se charcter nikalna
+
+// let a="javascript"
+// console.log(a[5]);

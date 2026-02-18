@@ -26,3 +26,18 @@ string  methods
 
 // let a="javascript"
 // console.log(a[5]);
+8 charAt()// iska use only string hoga 
+// let a="javascript"
+// let b=a.charAt(5);
+// console.log(b);
+
+// 9 index of ()
+// let a="hello js";
+// let b=a.indexOf("js")
+// console.log(b);
+// 10 lastindexof()
+// let a="hello js"
+// let b=a.lastIndexOf("l")
+// let c=a.indexOf("l")
+// console.log(b);
+// console.log(c);

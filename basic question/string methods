@@ -41,3 +41,97 @@ string  methods
 // let c=a.indexOf("l")
 // console.log(b);
 // console.log(c);
+9 at() : same as charat()but support negative number
+// let a="javascript"
+// console.log(a.at(5));
+// console.log(a.at(-1));
+
+// 10 includes()
+// let a="hello javascript"
+// console.log(a.includes("java"));//true
+// console.log(a.includes("script"));//true
+// console.log(a.includes("hello"));//true
+// console.log(a.includes("js"));//false
+// console.log(a.includes("j"));//true
+// 11 startwith()
+// let a="hello javascript"
+// console.log(a.startsWith("j"));//false
+// console.log(a.startsWith("h"));//true
+// console.log(a.startsWith("e"));//false
+// 12 endwith()
+// let a="hello javascript"
+// console.log(a.startsWith("j"));//false
+// console.log(a.startsWith("h"));//true
+// console.log(a.startsWith("e"));//false
+// 12 endwith()
+// let a="hello javascript"
+// console.log(a.endsWith("j"));//false
+// console.log(a.endsWith("h"));//false
+// console.log(a.endsWith("e"));//false
+// console.log(a.endsWith("t"));//true
+// console.log(a.endsWith("javascript"));//true
+// 13 replace//replace frist match
+// let a="hello javascript"
+// console.log(a.replace("hello","radhe-radhe"));//radhe radhe javascript
+// console.log(a.replace("h","H"));//Hello javascript
+// console.log(a.replace("e","E"));//hEllo javascript
+// console.log(a.replace("t","T"));//hello javascripT
+// 14 replaceAll()
+// let a="hello javascript"
+// console.log(a.replaceAll("hello","radhe-radhe"));//radhe radhe javascript
+// console.log(a.replaceAll("h","H"));//Hello javascript
+// console.log(a.replaceAll("a","A"));//hEllo javascript
+// console.log(a.replaceAll("t","T"));//hello javascripT
+
+// 15 trim// dono side spaceremove karta h
+// 16trimstar()//frist se space remove karega
+// 17 trimEnds()
+// 18 repeat//kisi word repeat karna
+// let a="hello javascript"
+// console.log(a.repeat(3));// 3 bar word print karta h//space dena h bich me word ke last space dal dete h
+// 19 padStart()
+// let a="8"
+// let b="a"
+// console.log(a.padStart(5,"0"));//00008
+// console.log(b.padStart(5,"0"));//0000a
+
+// 20 padEnd()
+// let a="8"
+// let b="a"
+// // console.log(b.padEnd(5,"0"));//a0000
+// console.log(a.padEnd(5,"0"))//80000
+// 21 slice(start,end)
+//let a="hello javascript"
+// let b=a.slice(0,6)//hello
+// let b=a.slice(5)//javascript
+// console.log(b);
+// let b=a.slice(-10)//- se pichhe start hota h
+// console.log(b);
+// 22 substring(start,end)//isme negative value nhi lega
+// let a="hello javascript"
+// let b=a.slice(0,6)//hello
+// let b=a.slice(5)//javascript
+// console.log(b);
+//23substr(start,length)
+// let a="hello javascript"
+//let b=a.substr(0,4)//hell
+// let b=a.substring(5,10)//java
+// console.log(b);
+// 24 split//method string ko array me convert kar deta h 
+// let str="hello javascript"
+// let b=str.split(" ");//string ko space wali jagah se tod deta h 
+// let b=str.split("")//char wise tod deta h
+// let a="a,b,c,d"
+// let b=a.split(",")//, se tod dega
+// console.log(b);
+// let a="a-b-c-d"
+// let b=a.split("-",3)//, isme range defind kar diya 3 char print karega 
+// console.log(b);
+
+
+
+
+
+
+
+
